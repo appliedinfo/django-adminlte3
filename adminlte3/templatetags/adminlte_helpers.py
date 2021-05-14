@@ -2,7 +2,8 @@ from hashlib import md5
 
 from django import template
 from django.conf import settings
-from django.urls import reverse
+#from django.urls import reverse
+from django.core.urlresolvers import reverse
 
 from adminlte3.compat import is_authenticated
 
